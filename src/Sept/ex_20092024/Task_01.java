@@ -10,8 +10,8 @@ public class Task_01 {
 
             // (10 > 20) ? (10 >45 ? 10: 45) : (20 > 45 ? 20 : 45);
             //               false    45           false    45
-            //   false       ( true )                ( false)
-            //                                result= false  (45)
+            //   false    ?   ( true )        :      ( false)
+            //                               result= false  (45)
 
 
         System.out.println(max);  // 45
